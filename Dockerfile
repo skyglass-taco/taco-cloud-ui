@@ -6,6 +6,7 @@ WORKDIR /usr/local/app
 # Step 3: Copy package.json and package-lock.json files
 COPY package*.json ./
 # Step 4: Install dependancy
+RUN npm cache clean --force
 RUN npm install -g @angular/cli
 RUN npm install
 # Step 5: Copy all source code
