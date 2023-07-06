@@ -26,7 +26,8 @@
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14",
-    "string-width": "^4.2.0"
+    "string-width": "^4.2.0",
+    "chromedriver": "^77.0.0"
   },
   "devDependencies": {
     "@angular/cli": "1.7.4",
